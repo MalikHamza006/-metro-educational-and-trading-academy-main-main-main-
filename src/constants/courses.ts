@@ -30,6 +30,7 @@ export const COURSES = [
     duration: "10 Weeks",
     isFlagship: false,
   },
+
   {
     id: 8,
     slug: "python-programming",
@@ -51,6 +52,7 @@ export const COURSES = [
     isFlagship: false,
   },
 
+
   // ========== CREATIVE COURSES ==========
   {
     id: 12,
@@ -70,7 +72,7 @@ export const COURSES = [
     duration: "8 Weeks",
     isFlagship: false,
   },
-
+ 
   // ========== ACADEMICS & IELTS COURSES ==========
   {
     id: 15,

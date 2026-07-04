@@ -72,9 +72,8 @@ export default function AboutPage({ setPath }: AboutPageProps) {
   return (
     <div className="bg-[#FAF9F9]">
       
-      {/* Hero Section - Changed to white background with red accents */}
+      {/* Hero Section - White background with red accents */}
       <section className="relative bg-white text-gray-900 overflow-hidden border-b border-red-500/10">
-        {/* Animated Background Pattern - Light version */}
         <div className="absolute inset-0 opacity-5">
           <div className="absolute top-20 left-10 w-72 h-72 bg-red-500 rounded-full blur-3xl"></div>
           <div className="absolute bottom-20 right-10 w-96 h-96 bg-red-500 rounded-full blur-3xl"></div>
@@ -134,7 +133,7 @@ export default function AboutPage({ setPath }: AboutPageProps) {
         </div>
       </section>
 
-      {/* Who We Are - Enhanced */}
+      {/* Who We Are */}
       <section className="py-20 bg-[#FAF9F9]">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -227,7 +226,7 @@ export default function AboutPage({ setPath }: AboutPageProps) {
         </div>
       </section>
 
-      {/* Mission & Vision - Changed to white background */}
+      {/* Mission & Vision - White background */}
       <section className="py-20 bg-white border-y border-red-500/10">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-12">
@@ -315,7 +314,7 @@ export default function AboutPage({ setPath }: AboutPageProps) {
         </div>
       </section>
 
-      {/* CTA Section - Changed to white background with red accent */}
+      {/* CTA Section - White background with red accent */}
       <section className="py-20 bg-white border-t border-red-500/10">
         <div className="max-w-4xl mx-auto text-center px-6">
           <div className="bg-[#FAF9F9] p-12 rounded-3xl border border-red-500/10">
